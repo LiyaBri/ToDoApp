@@ -1,0 +1,70 @@
+.addform {
+    margin: 20px;
+    padding: 10px;
+    background: #ffe9f4;
+    border-radius: 10px;
+}
+
+.addform__title {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.addform__form {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.addform__input {
+    border: 2px solid #deb9cb;
+    margin: 15px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.addform__input:focus {
+    outline: none;
+    border: 2px solid #2f2241;
+}
+
+.addform__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.addform__button {
+    background-color: pink;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%;
+    margin-top: 10px;
+    font-weight: bold;
+    transition: all 0.2s ease 0.1;
+    font-size: 24px;
+    font-weight: 300;
+    color: #2f2241;
+}
+
+.addform__button:hover {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.addform__select {
+    display: flex;
+}
+
+.addform__option {
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.addform__check {
+    margin-left: 10px;
+}

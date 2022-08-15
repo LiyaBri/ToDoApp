@@ -1,0 +1,69 @@
+.note__item {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.note__icons {
+    display: flex;
+    align-items: center;
+}
+
+.note__icon:not(:last-child) {
+    margin-right: 15px;
+}
+
+.expect {
+    border: 3px solid #c6c5c7;
+    background-color: #c6c5c7;
+}
+
+.ready {
+    border: 3px solid #91a1e8!important;
+    background-color: #91a1e8!important;
+    position: relative;
+}
+
+.ready:before {
+    content: url('check.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.ready-item {
+    text-decoration: line-through;
+    color: #c6c5c7;
+}
+
+.process {
+    border: 3px solid #9fff78;
+    background-color: #9fff78;
+}
+
+.note__title {
+    font-size: 16px;
+    padding: 0 5px 0 10px;
+    overflow: hidden;
+}
+
+.note__icon img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.note__ind {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.note__text {
+    display: flex;
+}
